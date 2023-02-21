@@ -1,1 +1,42 @@
+body{
+    background-color: #cf9fff;
+    padding: 70px;
+}
+#container{
+    margin: auto;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    border: 2px solid #eee;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 3px 15px gray;
+}
+#imageBox{
+  height: 90%;
+  border-radius: 15px 15px 0 0;
+  background-image: url(https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/download-23.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+#navi{
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center; 
+  padding: 10px;
+}
+.navbar{
+    font-weight: 100;
+    color: #666;
+    cursor: pointer;
+}
+.navbar:hover{
+    color: purple;
+    
+}
 
